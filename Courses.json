@@ -1,0 +1,13 @@
+{"nodes":[{"name": "Human Computer Interaction", "group": 1},
+    {"name": "System Analysis and Design", "group": 1},
+    {"name": "Exploratory Data Analysis", "group": 1},
+    {"name": "Information Architecture", "group": 1},
+    {"name": "Data Mining", "group": 2},
+    {"name": "Bayesian Data Analysis","group": 2},
+    {"name": "Big Data Analytics","group": 2},
+    {"name": "Applied Machine Learning", "group": 3},
+    {"name": "Search", "group": 3},
+    {"name": "Data Visualization", "group": 3},
+	{"name": "Computer Vision", "group": 4}],
+    
+"links":[]}	

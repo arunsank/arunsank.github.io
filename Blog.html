@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>BLOGS | ARUN RAM </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+	<link href="css/item_hover.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="fonts/stylesheet.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+        <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+       <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+	.node {
+	border: solid 1px white;
+	  overflow: hidden;
+	  position: absolute;
+	}
+	
+	
+	.node1 {
+   		border: solid 1px white;
+		  overflow: hidden;
+		  position: absolute;
+		}
+	
+	div.tree {
+    border: 1px solid red;
+    margin-left: 100px;
+	margin-right: 100px;
+}
+	
+	
+	
+	button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+</style>
+	
+	
+	</head>
+<body>
+     <!-- NAV SECTION -->
+         <div class="navbar navbar-inverse navbar-fixed-top">
+       
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">ARUN RAM </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                   <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                     <li><a href="Project.html">PROJECTS</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+					<li><a href="Blog.html">BLOGS</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+     <!--END NAV SECTION -->   
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+<section id="blog" class="container">
+        <div class="center">
+            
+            <h3><b> <p class="lead">Cause writing is all that I LOVE</p> </b> </h3>
+			<i> Note: The following are write-ups written by me critiquing and analysing some of the papers that I have read.
+   I claim no rights to the ideas that were shared in the paper. </i>
+        </div>
+   
+        <div class="blog">
+            <div class="row">
+                 <div class="col-md-8">
+                    <div class="blog-item">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-2 text-center">
+                                <div class="entry-meta">
+                                    <span id="publish_date">04  MAR 2016 </span>
+                                    
+                                </div>
+                            </div>
+                                
+                            <div class="col-xs-12 col-sm-10 blog-content">
+                                <!--<a href="#"><img class="img-responsive img-blog" src="images/blog/blog1.jpg" width="100%" alt="" /></a>-->
+                                <h2><a href="B1.html">The impossibility theorem for clustering Advances in Neural Information Processing Systems - Kleinberg J </a></h2>
+                                <h4>The paper discusses about how formalizing clustering can be difficult in most situations. 
+								In most situation when there are a heterogeneous collection of objects the need for clustering arises.
+								When processing the heterogeneous set of objects it is obvious that the user would tend to fall back to 
+								the technique of clustering. Clustering mostly falls under a persuasive destination. Even though the goal 
+								of clustering is clear and persuasive goal it has become very hard to construct a unified framework when we 
+								are looking for cognition at a technical level. The numerous approaches towards clustering also hasn't helped this cause. 
+								The paper proves that   with the help of a certain impossibility theorem as a medium. A set of three simple properties 
+								have been taken into consideration and we show that there is no clustering function satisfying all three of the properties. 
+								The observation has been that some relaxation in the operation of these properties exposed some trade-offs in well-known 
+								clustering techniques.</h4>
+                                <a class="btn btn-primary readmore" href="B1.html">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>    
+                    </div><!--/.blog-item-->
+                        
+                    <div class="blog-item">
+                        <div class="row">
+                             <div class="col-sm-2 text-center">
+                                <div class="entry-meta"> 
+                                    <span id="publish_date">18 MAR 2016</span>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-sm-10 blog-content">
+                               <!-- <a href=""><img class="img-responsive img-blog" src="images/blog/blog2.jpg" width="100%" alt="" /></a>-->
+                                <h2><a href="B2.html">Measures of clustering quality: a working set of axioms for Clustering - Ackerman M, Ben-David S
+</a></h2>
+                                <h4>This is an interesting paper that has a counter statement to Klienberg's paper. This paper argues that it is not inherent that a clustering technique may always satisfy the theory of impossibility. The clustering quality measures are axiomatized in this approach. 
+								A cluster quality measure function is considered as the medium to measure the quality of the clusters. 
+								The cluster quality measures are then analyzed a set of axioms are introduced for the output measures.
+								The axioms are nothing but a medium that retains the principles expressed by Klienberg's axioms while ensuring consistency. 
+								By this way the quality measures are considered as the technique to measure the quality of a set of 
+								clustering techniques without giving way to any off the tradeoffs as seen in Klienberg's method.</h4>
+                                <a class="btn btn-primary readmore" href="B2.html">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>    
+                    </div><!--/.blog-item-->
+					
+					<ul class="pagination pagination-lg">
+                        <li><a href="#"><i class="fa fa-long-arrow-left"></i>Previous Page</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="Blog2.html">2</a></li>
+
+						<li><a href="Blog2.html">Next Page<i class="fa fa-long-arrow-right"></i></a></li>
+						
+				      </ul><!--/.pagination-->	  
+                         
+
+					
+                  <!--  <ul class="pagination pagination-lg">
+                        <li><a href="#"><i class="fa fa-long-arrow-left"></i>Previous Page</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">Next Page<i class="fa fa-long-arrow-right"></i></a></li>
+                    </ul><!--/.pagination-->
+               </div><!--/.col-md-8-->
+
+               
+					   <aside class="col-md-4">
+					   <div class="widget categories">
+                        <h3>My Blog topic interests</h3>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="blog_category">
+                                    <li><a href="#">Computers & Technology <span class="badge">03</span></a></li>
+                                    <li><a href="#">Data Science <span class="badge">03</span></a></li>
+                                    <li><a href="#">Fiction <span class="badge">00</span></a></li>
+                                    <li><a href="#">Lyrics <span class="badge">00</span></a></li>
+                                </ul>
+                            </div>
+                        </div>                     
+                    </div><!--/.categories-->
+  
+  
+                    <div class="widget tags">
+                        <h3>Tag Cloud</h3>
+                        <ul class="tag-cloud">
+                            <li><a class="btn btn-xs btn-primary" href="#">Data Science</a></li>
+                            <li><a class="btn btn-xs btn-primary" href="#">Machine Learning</a></li>
+                            <li><a class="btn btn-xs btn-primary" href="#">Data Mining</a></li>
+							<li><a class="btn btn-xs btn-primary" href="#">Big Data </a></li>
+						    <li><a class="btn btn-xs btn-primary" href="#">Statistics</a></li>
+                           <li><a class="btn btn-xs btn-primary" href="#">Text</a></li>
+                            
+                        </ul>
+                    </div><!--/.tags-->
+  
+                    </aside> 	
+                    
+    				
+    				
+                    
+    				
+    			
+            </div><!--/.row-->
+        </div>
+    </section><!--/#blog-->
+
+
+    	 
+	 
+	 
+ <!--FOOTER SECTION -->
+    <div id="footer">
+        <center> www.arunsank.com | All Right Reserved  </center>
+         
+    </div>
+    <!-- END FOOTER SECTION -->
+
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP CORE SCRIPT   -->
+    <script src="assets/plugins/bootstrap.min.js"></script>  
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
